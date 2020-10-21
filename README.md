@@ -11,12 +11,4 @@
 4.3 Open your MSSQL and check to verify if the database was indeed created.
 5. You are good to start running your API 
 
-# Configuring ApiClient
 
-1. Open the folder in Visual Studio Code
-2. Open Terminal
-3. cd address-book-api-client
-4. Type npm install
-4.1 This will install all project packages for you.
-5. Run npm start
-5.1 This will run the ApiClient
