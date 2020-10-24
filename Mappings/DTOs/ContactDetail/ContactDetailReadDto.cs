@@ -8,6 +8,7 @@ namespace AddressBookWebApi.Mappings.DTOs.ContactDetail
 {
     public class ContactDetailReadDto
     {
+        public int ContactDetailId { get; set; }
         public int ContactId { get; set; }
         public string Description { get; set; }
         [MaxLength(100)]
