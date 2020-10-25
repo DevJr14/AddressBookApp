@@ -10,9 +10,11 @@ namespace AddressBookWebApi.Mappings
         public AddressBookProfile()
         {
             CreateMap<Contact, ContactReadDto>();
+            CreateMap<ContactReadDto, Contact>();
             CreateMap<ContactCreateDto, Contact>();
 
             CreateMap<ContactDetail, ContactDetailReadDto>();
+            CreateMap<ContactDetailReadDto, ContactDetail>();
             CreateMap<ContactDetailCreateDto, ContactDetail>();
         }
     }

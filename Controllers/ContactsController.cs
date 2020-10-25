@@ -86,19 +86,19 @@ namespace AddressBookWebApi.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpGet("{contactid}/contactdetail/{contactdetailid}")]
-        public async Task<ActionResult<ContactReadDto>> GetContactAndContactDetails(int cId, int cdId)
+        [HttpGet("{contactId}/contactdetail/{contactDetailId}")]
+        public async Task<ActionResult<ContactReadDto>> GetContactAndContactDetails(int contactId, int contactDetailId)
         {
             try
             {
-                bool contactExists = await _addressBookService.ContactExists(cId);
+                bool contactExists = await _addressBookService.ContactExists(contactId);
 
                 if (!contactExists)
                 {
                     return NotFound();
                 }
 
-                ContactDetail contactDetailFromService = await _addressBookService.GetContactDetail(cId, cdId);
+                ContactDetail contactDetailFromService = await _addressBookService.GetContactDetail(contactId, contactDetailId);
 
                 if (contactDetailFromService == null)
                 {

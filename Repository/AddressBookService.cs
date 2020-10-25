@@ -30,6 +30,9 @@ namespace AddressBookWebApi.Repository
             //Check to prevent duplicate entries
             if (!IsDuplicateRecord(newContact.FirstName, newContact.Surname, newContact.BirthDate))
             {
+                //newContact.BirthDate = String.Format("{0:MM/dd/yyyy}", newContact.BirthDate);  // "03/09/2008"
+                //newContact.BirthDate.ToString("MM/dd/yyyy");  // "03/09/2008"
+
                 await _context.Contacts.AddAsync(newContact);
             }
             else
