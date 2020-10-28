@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kb9/8ILVa1In5QUWAitB+VJiG+i8wTqMgS4XBPcNsOsPf7qNNrIuHvUb0CDS5Hw+WMKEkS2xbVpOJ4qRpUYXZA==",
+  "dgSpecHash": "Ohu7UEy1LDVvxqU+PsO7zMnmdcGN7It7ILqgif4zPN4OlES6oL0wlecmXR0D6WHAVqCu739sLfCx4RWmOgKDkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junior.matlou\\Documents\\Junior\\Projects\\AddressBookWebApi\\AddressBookWebApi.csproj",
+  "projectFilePath": "C:\\Users\\junior.matlou\\Documents\\Junior\\Projects\\Namocorp\\23-10-2020\\AddressBookApp\\AddressBookWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junior.matlou\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\junior.matlou\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
